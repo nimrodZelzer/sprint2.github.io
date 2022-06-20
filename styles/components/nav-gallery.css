@@ -1,0 +1,35 @@
+
+.nav-gallery{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+    gap: 30px;
+}
+.nav-gallery >*{
+    min-height: 58px;
+   font-size: 2rem;
+   margin: auto;
+   flex: 1;
+   font-family: poppins-medium;
+   color: white;
+   border-radius: 20px;
+}
+
+.nav-gallery .search-bar{
+    color: black;
+    min-height: 58px;
+}
+
+.nav-gallery .btn-more{
+    background: linear-gradient(-60deg, var(--clr3) 50%, var(--clr4) 50%);
+
+}
+
+.nav-gallery .keywords{
+    padding-top: 5px;
+    background-color: #87898d;
+    border: 3px solid #87898d;
+    border-radius: 10em;
+    text-align: center;
+}
+

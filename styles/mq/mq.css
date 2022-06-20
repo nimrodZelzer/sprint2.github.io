@@ -1,0 +1,32 @@
+/* MOBILE ONLY */
+@media (max-width: 840px) {
+    .gallery {
+        grid-template-columns: repeat(2,1fr);
+      }
+      .logo{
+        height: 40px;
+      }
+      header{
+        padding-top: 10px;
+        height: 70px;
+      }
+      .nav-gallery .keywords{
+        display: none;
+    }
+    
+    .nav-gallery .btn-more{
+       display: none;
+    
+    }
+}
+
+
+@media (max-width: 1345px) {
+    .nav-gallery .keywords{
+      font-size: 1.5rem;
+  }
+  
+  .nav-gallery .btn-more{
+    font-size: 1.5rem;
+  }
+}
